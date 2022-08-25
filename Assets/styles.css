@@ -1,0 +1,274 @@
+/* GENERAL */
+html {
+  scroll-behavior: smooth;
+}
+.bg-login {
+  background-color: #f1efed;
+  background-size: cover;
+}
+.bg-blackTheme {
+  background-color: #f1efed;
+  background-size: cover;
+}
+
+/* LOGIN PAGE */
+.login-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+.input-display {
+  background: #D9D9D9;
+  width: 28rem;
+  height: 2.5rem;
+  border-radius: 10px;
+}
+.shadow-login {
+  box-shadow: -10px 0px 13px -7px #ffffff, 10px 0px 13px -7px #ffffff,
+    5px 17px 41px 27px rgba(55, 53, 53, 0.661);
+}
+.form-login-display {
+  display: flex;
+  justify-content: center;
+}
+.form-login-content {
+  color: black;
+  display: grid;
+  justify-content: center;
+}
+.login-tittle {
+  font-size: xx-large;
+  margin-bottom: 2rem;
+}
+.label-font {
+  font-size: large;
+}
+.login-form-body {
+  display: inline-flex;
+  background-color: #F1F1F1;
+  font-family: math;
+  padding: 2rem 3rem;
+  border-radius: 30px;
+}
+/* Login Button */
+.btn-form-login {
+  margin-top: 10px;
+  border-color: rgb(85, 81, 81);
+  border-bottom-width: medium;
+  border-radius: 10px;
+}
+.btn-login {
+  width: 100%;
+  background-color: #8c7851;
+  font-size: medium;
+}
+
+.color-text {
+  color: #fffffe;
+}
+
+/* Login cancel button  */
+.btn-form-lgn-cancel {
+  margin-top: 10px;
+  border-color: rgb(85, 81, 81);
+  border-bottom-width: medium;
+  border-radius: 10px;
+}
+.btn-lgn-cancel {
+  width: 5rem;
+  height: 2.5rem;
+  font-size: medium;
+}
+
+
+/* NAVBAR */
+.bg-navbar {
+  padding: 0.3rem;
+  background-color: rgb(225 198 168) !important;
+}
+
+.nav-color {
+  color: black !important;
+  font-weight: bold;
+}
+.mynavbar-login {
+  justify-content: right;
+  font-size: large;
+  margin-right: 2rem;
+}
+
+.mynavbar {
+  justify-content: center;
+  font-size: large;
+  margin-right: 2rem;
+}
+
+/* CONTENT */
+.titleBox {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  color: #fafafa;
+  font-size: xxx-large;
+  font-weight: 600;
+  -webkit-text-stroke: 1.5px;
+  font-family: sans-serif;
+  text-shadow: 1px 4px 5px #000000;
+  -webkit-text-stroke-color: black;
+}
+.title2 {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  margin-left: 0.8rem;
+  color: #f3b16d;
+  font-size: xxx-large;
+  font-weight: 600;
+  -webkit-text-stroke: 1.5px;
+  font-family: sans-serif;
+  text-shadow: 1px 4px 5px #000000;
+  -webkit-text-stroke-color: black;
+}
+
+/* SEARCH BOX */
+.input-shape {
+  height: 2.5rem;
+  padding: 0 10px;
+  border-radius: 10px 0 0 10px;
+  background: #fafafa;
+  color: black;
+  font-size: medium;
+  border: 1px solid black;
+}
+.search-box-body {
+  color: white;
+  display: flex;
+  justify-content: end !important;
+  margin-bottom: 0.5rem;
+}
+
+.button-search {
+  height: 2.5rem;
+  width: 2.5rem;
+  background: #eaddcf;
+  font-size: medium;
+  border: 1px solid black;
+  border-radius: 0 10px 10px 0;
+  border-left: none;
+  cursor: pointer;
+}
+.button-search:hover {
+  background: #8c7851;
+}
+form.search-box::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.loginBody {
+  color: #fafafa;
+}
+
+/* INDEX TABLE */
+.shadow {
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 17px 41px 27px rgb(0 0 0 / 46%);
+}
+/* head */
+.table-color {
+  background: rgb(225 198 168) !important;
+}
+
+.table_title {
+  text-align: center;
+  font-size: medium;
+  font-family: ui-serif;
+}
+
+/* body */
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: middle !important;
+  border-top: 1px solid #dee2e6;
+}
+.table-body {
+  text-align: left;
+  font-size: medium;
+  font-family: math;
+  background-color: #fafafa;
+}
+
+/* INSERT DATA */
+.form-display {
+  display: flex;
+  margin-bottom: 4rem;
+  justify-content: center;
+}
+.insert-form-body {
+  display: inline-flex;
+  background-color: #fafafa;
+  font-family: math;
+  padding: 2rem 3rem;
+  border-radius: 30px;
+}
+.form-input {
+  width: 20rem;
+  border-radius: 6px;
+  margin: 5px 0;
+}
+.td-space {
+  padding: 0 1rem;
+  margin: 5px 0;
+}
+
+/* SELECT MAHASISWA */
+.table-bodyMhs {
+  text-align: center;
+  font-size: medium;
+  font-family: math;
+  background-color: #fafafa;
+}
+
+/* SELECT JURUSAN */
+.table-bodyJurusan {
+  text-align: center;
+  font-size: medium;
+  font-family: math;
+  background-color: #fafafa;
+}
+
+/* UPDATE */
+.btn-color-yes {
+  background: #8c7851;
+}
+
+.btn-color-no {
+  background: #ec4848;
+}
+
+.btn-form {
+  margin-top: 10px;
+  border-color: black;
+  border-bottom-width: medium;
+  border-radius: 10px;
+}
+
+/* JADWAL FORM  */
+.d-jadwal_form {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pad-jadwal_form {
+  margin: 0 1.5rem;
+}
+
+/* ADMIN PAGE */
+.button_tambah{
+  margin-top: 15rem;
+  margin-right: 5rem;
+  position: fixed;
+}
